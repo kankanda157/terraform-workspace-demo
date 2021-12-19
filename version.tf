@@ -8,8 +8,8 @@ terraform {
 }
 
 provider "aws" {
-    profile = "var.aws_profile_name"
-    region = "var.aws_region"
+    profile = "terratest01"
+    region = "ap-southeast-1"
     shared_credentials_file = "$HOME/.aws/creds"
   
 }
